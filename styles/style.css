@@ -8,9 +8,13 @@ body {
   font-weight: 800;
 }
   
-
+/* 헤더 */
 .header {
   background: lightcoral;
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 100px l
 }
 
 .visual {
@@ -27,4 +31,8 @@ body {
 
 .footer {
   background: pink;
+}
+.footer-inner {
+  background-color: silver;
+  height: 15vh;
 }
