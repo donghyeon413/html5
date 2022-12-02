@@ -2,7 +2,7 @@
 @import url(./reset.css);
 
 /* 기본 스타일 */
-,::before, ::after{
+*, *::before, *::after{
   box-sizing: border-box;
 }
 
