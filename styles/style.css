@@ -9,7 +9,7 @@
 
 /* 본문 스타일 */
 body {
-  background: #ffc;
+  background: #ccc;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
     "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-weight: 100;
@@ -27,16 +27,35 @@ body {
 
 /* 헤더 */
 .header {
-  background: pink;
+  background: #fff;
   padding: 0 30px; /* 숏핸드 표기법 `상 우 하 좌`(시계방향) */
   height: 15vh;
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  top: 50px;
 }
+
+
 
 /* 비주얼 */
 .visual {
   background: orange;
   height: 10vh;
 }
+
+/* 로고 */
+.logo{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+
+}
+
+/* 텍스트 링크 모음  */
+.member{
+  background-color: rgba(21, 207, 235, 0.769);
+}
+
 
 /* 메인 */
 .main {
@@ -81,6 +100,6 @@ body {
 .footer-inner {
   background: silver;
   height: 15vh;
-  width: 500px;
+
   overflow: hidden;
 }
