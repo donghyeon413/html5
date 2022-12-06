@@ -26,18 +26,20 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 /* 본문 스타일 */
 body {
   /*  em, rem 단위를 사용해보기  */
   font-size: 1.4rem;
   color: #212121;
-  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%,
-   #efefef 60%, #fff 100%);
+  background: #ccc 
+  linear-gradient(to bottom, #ccc 0%, #eee 35%, #efefef 60%, #fff 100%);
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
+
 /* 레이아웃 */
 .header,
 .visual,
@@ -47,6 +49,7 @@ body {
   width: 940px;
   margin: 0 auto;
 }
+
 /* 헤더 */
 .header {
   background: #fff;
@@ -54,12 +57,14 @@ body {
   border-radius: 0 0 15px 15px;
   position: relative;
 }
+
 /* 로고 */
 .logo {
   position: absolute;
   top: 45px;
   left: 60px;
 }
+
 /* 텍스트 링크 모음 */
 .member {
   /* background-color: aqua; */
