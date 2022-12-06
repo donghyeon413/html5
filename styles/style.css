@@ -110,6 +110,10 @@ body {
     );
     border-radius: 0 0 5px 5px;
     display: flow-root;
+    padding-left : 230px;
+}
+.menu-item:first-child{
+
 }
 
 .menu-item{
