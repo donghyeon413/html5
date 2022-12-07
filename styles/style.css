@@ -153,8 +153,8 @@ body {
 .sub-menu {
   position: absolute;
   top: 47px;
-  padding: 4px 0;
   display: none;
+  padding: 4px 0;
 }
 
 .menu-html,
@@ -200,14 +200,14 @@ body {
   content: "\e801";
 }
 
-.sub-menu a{
+.sub-menu a {
   display: inline-block;
   padding: 10px 0;
 }
 
 .sub-menu a:hover,
-.sub-menu a:focus{
-  color: red;
+.sub-menu a:focus {
+  color: #f00;
 }
 
 /* 비주얼 */
