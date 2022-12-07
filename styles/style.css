@@ -141,7 +141,7 @@ body {
   color: #ff0;
 }
 
-.is-active .menu-button::after{
+.is-active .menu-button::after {
   content: "";
   border-bottom: 2px solid #000;
   display: block
