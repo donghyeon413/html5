@@ -251,6 +251,7 @@ body {
 }
 
 .visual::before {
+  /* background-color: yellow; */
   background: url("./images/ani_flower_01.png") no-repeat 0 -10px,
     url("./images/ani_flower_02.png") no-repeat 600px 0;
 }
