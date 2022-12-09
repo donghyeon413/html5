@@ -386,14 +386,37 @@ body {
 }
 
 /* 유효성 검사 배너 */
+
+ 
 .validation-list{
   background-color: yellow;
   margin-top: 25px;
 }
 
 .validation-list li {
-  background-color: pink;
   margin-top: 10px;
+  
+}
+
+.validation-list a{
+  display: block;
+  background: url("./images/validation_icon.png") no-repeat  25px 50%, gray linear-gradient(to bottom, gray, white);
+  padding: 8px 15px 8px 45px;
+  border-radius: 30px;
+  border:  1px solid #aaa;
+  cursor: pointer;
+  
+}
+/* 
+.validation-list a::before{
+  content: url("./images/validation_icon.png");
+  background-color: aqua;
+  vertical-align: middle;
+}  */
+
+.validation-list a:hover,
+.validation-list a:focus{
+  color: red;
 }
 
 /* 슬로건 */
