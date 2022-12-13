@@ -587,7 +587,7 @@ body {
 }
 
 .news-title{
-  /* color: orange; */
+  color: orange;
   font-size: 1.5rem;
   font-weight: 700; 
 }
@@ -631,6 +631,11 @@ body {
   top : 6px;
   left: 0;
   text-align: center;
+}
+
+.news-item-thumbnail img{
+  box-shadow: 0 15px 10px 5px #ccc;
+  margin-bottom: 15px;
 }
 
 .news-more {
