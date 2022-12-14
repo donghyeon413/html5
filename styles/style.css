@@ -39,8 +39,7 @@ body {
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   background: url("./images/bg_flower.png") no-repeat 50% 0,
-    #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%)
-      repeat 0 0;
+    #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%) repeat 0 0;
 }
 
 /* 레이아웃 */
@@ -106,21 +105,18 @@ body {
 
 .menu {
   border-top: 2px solid currentColor;
-  background: #e85e2c
-    linear-gradient(
-      to bottom,
+  background: #e85e2c linear-gradient(to bottom,
       #ef9126 0%,
       #e85e2c 35%,
       #e85e2c 70%,
-      #ef9126 100%
-    );
+      #ef9126 100%);
   border-radius: 0 0 5px 5px;
   padding-left: 230px;
   height: 47px;
   position: relative;
 }
 
-.menu > li:nth-child(-n + 3) {
+.menu>li:nth-child(-n + 3) {
   position: relative;
 }
 
@@ -231,6 +227,7 @@ body {
   0% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -361,6 +358,7 @@ body {
   border-radius: 0 0 5px 5px;
   padding: 4px 10px;
 }
+
 .sign li {
   display: inline-block;
 }
@@ -480,10 +478,12 @@ body {
   align-items: center;
   padding-right: 10px;
 }
+
 .form-group-label {
   flex-shrink: 0;
   margin-right: 10px;
 }
+
 .form-group-input {
   border: 1px solid #aaa;
   border-radius: 3px;
@@ -614,6 +614,7 @@ body {
   width: 250px;
   float: right;
 }
+
 .news-item-brief {
   line-height: 1.5;
   width: 250px;
@@ -823,15 +824,16 @@ body {
   font-size: 3rem;
   transform: translateY(10px);
 }
+
 .slogan-content q::after {
   content: "";
 }
 
 /* 푸터 */
 .footer {
-  background: #ccc
-    linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
+  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
 }
+
 .footer-inner {
   display: flex;
   flex-flow: row nowrap;
